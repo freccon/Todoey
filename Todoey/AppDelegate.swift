@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         // this get called when the app gets loaded up
         //this is the first thing that happens and this happens before the view load inside the first view
-        print(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last! as String)
+        
         print("didFinishLaunchingWithOptions")
         return true
     }
